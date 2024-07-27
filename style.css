@@ -130,9 +130,3 @@ button:hover {
 
   input[type="text"], button {
     font-size: 1em;
-  }
-
-  .sidebar img {
-    display: none;
-  }
-}
