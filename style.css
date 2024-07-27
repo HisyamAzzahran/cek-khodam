@@ -3,7 +3,7 @@
 
 body {
   font-family: Arial, sans-serif;
-  background: url('images/prabu.png') no-repeat center center;
+  background: url('images/prabu.png') no-repeat center center fixed;
   background-size: cover;
   margin: 0;
   padding: 0;
@@ -11,8 +11,6 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  height: 100%;
-  width: 100%;
   overflow: hidden;
 }
 
@@ -46,6 +44,7 @@ body {
 
 .sidebar img {
   height: 100%;
+  width: auto;
 }
 
 .main-content {
