@@ -10,7 +10,10 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  min-height: 100vh;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
 }
 
 .container {
@@ -89,5 +92,21 @@ button:hover {
   }
   to {
     opacity: 1;
+  }
+}
+
+/* Media Queries for Responsive Design */
+@media (max-width: 768px) {
+  .card {
+    max-width: 100%;
+    padding: 15px;
+  }
+
+  h1 {
+    font-size: 1.5em;
+  }
+
+  input[type="text"], button {
+    font-size: 1em;
   }
 }
