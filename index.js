@@ -19,13 +19,13 @@ export default function Home() {
 
   return (
     <div>
-      <h1>Cek Khodam</h1>
+      <h1>Cek Khodam Prabubur</h1>
       <form onSubmit={handleSubmit}>
         <label>
           Nama:
           <input type="text" value={name} onChange={(e) => setName(e.target.value)} required />
         </label>
-        <button type="submit">Cek Khodam</button>
+        <button type="submit">Cek Khodam Prabubur</button>
       </form>
       {result && (
         <div>
