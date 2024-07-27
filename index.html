@@ -7,8 +7,15 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <audio autoplay loop>
+    <source src="music/background-music.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
   <div class="container">
-    <div class="card animate__animated animate__bounceIn">
+    <div class="sidebar left-sidebar">
+      <img src="images/kotak-kiri.png" alt="Left Sidebar Image">
+    </div>
+    <div class="main-content animate__animated animate__bounceIn">
       <h1>Cek Khodam Prabubur</h1>
       <form id="khodamForm">
         <label for="name">Nama:</label>
@@ -16,6 +23,12 @@
         <button type="submit">Cek Khodam</button>
       </form>
       <div id="result" class="result"></div>
+    </div>
+    <div class="sidebar right-sidebar">
+      <img src="images/kotak-kanan.png" alt="Right Sidebar Image">
+    </div>
+    <div class="footer">
+      <img src="images/landingcloud.png" alt="Bottom Image">
     </div>
   </div>
 
